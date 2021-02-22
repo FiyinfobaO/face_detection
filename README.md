@@ -40,5 +40,5 @@ The CNN face detection model in Dlib(after converting the image to grayscale) pe
 
 ### Other ways the problem can be solved
 
-* **OpenCVs deep neural network modulue with Caffe models** can be used for face detection but one will have to download the config file(*.prototxt.txt*) and the model file(*.caffemodel*) file for this to work.
+* **OpenCVs deep neural network modulue with Caffe models** can be used for face detection but one will have to download the config file(*.prototxt*) and the model file(*.caffemodel*) file for this to work.
 * The **Multi-Task Cascaded Convolutional Neural Network(MTCNN)** can also be used via the MTCNN library. The MTCNN model does not just perform face detection, but also *facial landmark detecion* where it can be used to recognize facial features such as eyes, nose and mouth. It also provides the *probablity confidence* of the face detection predictions.
